@@ -1,10 +1,6 @@
 # AI-RESUME-BUILDER
 Need for an AI-powered system that can automatically generate well-structured, ATS-friendly resumes, improve content quality, and assist users with skill recommendations based on the job role they want.
 
-Absolutely! A **well-structured README** for your **ResumeCraftAI** GitHub repo should include: project overview, features, tech stack, setup instructions, and usage. Here's a full example you can use:
-
----
-
 # **ResumeCraftAI**
 
 **AI-Powered Resume Builder** – Create professional resumes and short cover letters with AI assistance, skill highlighting, multiple templates, and PDF download.
@@ -124,9 +120,3 @@ ResumeCraftAI/
 * Multiple resume templates with live preview
 * More advanced AI-generated content
 * Deploy as a cloud app for public access
-
----
-
-If you want, I can also **make a slightly fancier version with badges, GIF demo, and installation shortcut commands** that looks professional on GitHub.
-
-Do you want me to do that?
