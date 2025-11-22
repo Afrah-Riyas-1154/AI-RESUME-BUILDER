@@ -1,0 +1,7 @@
+# In terminal
+cd ResumeCraftAI
+python -m venv venv          # create virtual env
+venv\Scripts\activate        # Windows
+# source venv/bin/activate    # Mac/Linux
+
+pip install flask openai pdfkit

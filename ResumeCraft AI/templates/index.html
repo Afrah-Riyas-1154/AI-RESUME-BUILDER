@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ResumeCraftAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>ResumeCraftAI</h1>
+    <form action="/generate" method="post">
+        <input type="text" name="name" placeholder="Full Name" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <textarea name="education" placeholder="Education"></textarea><br>
+        <textarea name="experience" placeholder="Experience"></textarea><br>
+        <input type="text" name="skills" placeholder="Skills (comma separated)"><br>
+        <button type="submit">Generate Resume</button>
+    </form>
+</body>
+</html>

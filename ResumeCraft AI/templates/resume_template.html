@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ name }}'s Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        h1 { color: #333; }
+        .highlight { font-weight: bold; color: #2E86C1; }
+    </style>
+</head>
+<body>
+    <h1>{{ name }}</h1>
+    <p>Email: {{ email }}</p>
+    <h2>Summary</h2>
+    <p>{{ summary }}</p>
+    <h2>Education</h2>
+    <p>{{ education }}</p>
+    <h2>Experience</h2>
+    <p>{{ experience }}</p>
+    <h2>Skills</h2>
+    <p>
+        {% for skill in skills.split(',') %}
+            <span class="highlight">{{ skill.strip() }}</span> 
+        {% endfor %}
+    </p>
+</body>
+</html>
